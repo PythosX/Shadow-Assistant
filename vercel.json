@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/telegram/webhook.ts": {
+      "maxDuration": 60
+    },
+    "api/telegram/setup.ts": {
+      "maxDuration": 20
+    }
+  },
+  "includeFiles": ["knowledge/**"]
+}
